@@ -1,5 +1,11 @@
+img {
+	max-width: 100%;
+	height: auto;
+}
 .newsletter {
   font-family: 'Acumin Pro', Arial, Helvetica, sans-serif;
+  text-align: center;
+
 }
 h3 .other-story {
   color: #6D8D33;
