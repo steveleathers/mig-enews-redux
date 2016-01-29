@@ -2,6 +2,33 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+#header{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#main-story{
+
+	font-family: 'Acumin Pro', Arial, Helvetica, sans-serif;
+	color: #fff;
+	width:100%;
+	position: relative;
+}
+#main-story img{
+	opacity: 0.6
+}
+#main-story h1, p{
+	padding: 80px;
+}
+#header-text{
+	position: absolute;
+	z-index: 999;
+	top: 0;
+}
+.gold-button{
+	border-radius: 4px;
+	padding: 2px;
+	background-color: #E6AC10;
+}
 .newsletter {
   font-family: 'Acumin Pro', Arial, Helvetica, sans-serif;
   text-align: center;
