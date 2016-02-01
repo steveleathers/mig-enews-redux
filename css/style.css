@@ -16,13 +16,20 @@ img {
 #main-story img{
 	opacity: 0.6
 }
-#main-story h1, p{
+#main-story h1, #main-story p{
 	padding: 80px;
 }
 #header-text{
 	position: absolute;
 	z-index: 999;
 	top: 0;
+}
+#header{
+	text-align: center;
+}
+.Ahead img{
+	max-width: 250px;
+	padding-bottom: 15px;
 }
 .gold-button{
 	border-radius: 4px;
@@ -33,6 +40,9 @@ img {
   font-family: 'Acumin Pro', Arial, Helvetica, sans-serif;
   text-align: center;
 
+}
+.newsletter p{
+		color: #4D4D4D;
 }
 .other-story{
   text-align: center;
