@@ -19,6 +19,10 @@ img {
 #main-story h1, #main-story p{
 	padding: 80px;
 }
+#intro-text{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
 #header-text{
 	position: absolute;
 	z-index: 999;
