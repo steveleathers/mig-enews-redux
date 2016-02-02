@@ -8,17 +8,14 @@ img {
 }
 #main-story{
 
-	font-family: 'Acumin Pro', Arial, Helvetica, sans-serif;
+	font-family: acumin-pro, sans-serif;
+	font-size: 1.25em;
 	color: #fff;
-	width:100%;
 	position: relative;
+	padding-bottom: 30px;
+
 }
-#main-story img{
-	opacity: 0.6
-}
-#main-story h1, #main-story p{
-	padding: 80px;
-}
+
 #intro-text{
 	padding-top: 12px;
 	padding-bottom: 12px;
@@ -41,9 +38,16 @@ img {
 	background-color: #E6AC10;
 }
 .newsletter {
-  font-family: 'Acumin Pro', Arial, Helvetica, sans-serif;
+  font-family: acumin-pro, sans-serif;
   text-align: center;
 
+}
+.newsletter h3{
+	font-family: acumin-pro-condensed, sans-serif;
+	font-weight: 700;
+}
+.story-content{
+	text-align: left;
 }
 .newsletter p{
 		color: #4D4D4D;
@@ -64,4 +68,15 @@ img {
 }
 .footer p{
 	color: #fff;
+}
+.footer input{
+	color: #4D4D4D;
+}
+.mig-footer-link{
+	display: inline-block;
+	position: relative;
+	float: right;
+	right: 30px;
+	max-width: 120px;
+	background-color: #7F7F7F;
 }
