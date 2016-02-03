@@ -62,6 +62,18 @@ img {
 .other-story p {
   color: #4D4D4D;
 }
+.story-sidebar{
+	background-color: #808080;
+	position: relative;
+	float:left;
+	margin-top: 30px;
+	margin-right: 30px;
+	max-width: 200px;
+}
+.story-sidebar h3{
+	color: #E9AF10;
+	text-transform: capitalize;
+}
 .middle-images img{
 	max-width: 40%;
 	padding-right: 10px;
