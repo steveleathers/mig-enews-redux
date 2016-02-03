@@ -83,3 +83,37 @@ img {
 .citations{
 	font-size: 0.8em;
 }
+.related ul{
+	list-stype-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+.related li {
+	float:left;
+	display: inline;
+	padding-left:10px;
+	word-wrap: break-word;
+	padding-left: 10px;
+	margin-bottom: 0px;
+}
+.related li a{
+	display: block;
+	overflow: hidden;
+	text-decoration: none;
+	word-wrap: break-word;
+
+}
+.image-link a{
+	max-width: 120px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+}
+.related h4{
+	text-align: left;
+	text-transform: capitalize;
+	font-family: acumin-pro, sans-serif;
+	font-size: .95em;
+	font-weight: 600;
+}
