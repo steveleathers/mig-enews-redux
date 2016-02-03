@@ -133,6 +133,31 @@ img {
 	max-width: 120px;
 	padding-bottom: 10px;
 }
+.mig-social-follow{
+	position: relative;
+	float: right;
+	top: 100px;
+	left: 55px;
+	background-color: #7F7F7F;
+}
+.mig-social-follow ul{
+	list-style-type: none;
+	display:inline;
+	margin: 0;
+	padding-top: 80px;
+	overflow: hidden;
+	text-align: right;
+}
+.mig-social-follow li {
+	list-style-type: none;
+	display:inline;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.mig-social-follow img {
+	max-width: 35px;
+}
 .related h4{
 	text-align: left;
 	font-variant: small-caps;
