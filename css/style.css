@@ -48,9 +48,13 @@ img {
 }
 .story-content{
 	text-align: left;
+	padding-top: 30px;
 }
 .newsletter p{
 		color: #4D4D4D;
+}
+.newsletter h3{
+	color: #6D8D33;
 }
 .other-story{
   text-align: center;
@@ -131,8 +135,21 @@ img {
 }
 .related h4{
 	text-align: left;
-	text-transform: capitalize;
+	font-variant: small-caps;
 	font-family: acumin-pro, sans-serif;
-	font-size: .95em;
-	font-weight: 600;
+	font-size: 1.1em;
+	font-weight: 700;
+	overflow: hidden;
+	position: relative;
+}
+.related h4:after{
+	display: inline-block;
+  content: "";
+  height: 1px;
+  background: #4D4D4D;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin-top: 2px;
+  margin-left: 10px;
 }
