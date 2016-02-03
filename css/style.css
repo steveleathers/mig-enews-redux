@@ -62,9 +62,15 @@ img {
 .other-story p {
   color: #4D4D4D;
 }
+.middle-images img{
+	max-width: 40%;
+	padding-right: 10px;
+}
 .footer {
 	background-color: #7F7F7F;
 	color: #fff;
+	margin-right: 15;
+	margin-left: 15;
 }
 .footer p{
 	color: #fff;
@@ -77,38 +83,39 @@ img {
 	position: relative;
 	float: right;
 	right: 30px;
+	top: 39px;
 	max-width: 120px;
 	background-color: #7F7F7F;
+	vertical-align: middle;
 }
 .citations{
 	font-size: 0.8em;
 }
 .related ul{
 	list-stype-type: none;
-	margin: 0;
-	padding: 0;
 	overflow: hidden;
 	word-wrap: break-word;
+	width: 100%;
+	margin:auto;
+
 }
 .related li {
 	float:left;
 	display: inline;
-	padding-left:10px;
 	word-wrap: break-word;
-	padding-left: 10px;
 	margin-bottom: 0px;
+	width: 25%;
 }
 .related li a{
 	display: block;
 	overflow: hidden;
 	text-decoration: none;
 	word-wrap: break-word;
-
+	color: #4D4D4D;
 }
 .image-link a{
 	max-width: 120px;
 	padding-bottom: 10px;
-	padding-left: 15px;
 }
 .related h4{
 	text-align: left;
