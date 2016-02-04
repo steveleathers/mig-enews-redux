@@ -6,16 +6,17 @@ img {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-#main-story{
+#main-story p{
 
 	font-family: acumin-pro, sans-serif;
 	font-size: 1.25em;
-	color: #fff;
+}
+#main-story{
+	olor: #fff;
 	position: relative;
 	padding-bottom: 30px;
 	padding-top: 30px;
 }
-
 #intro-text{
 	padding-top: 12px;
 	padding-bottom: 12px;
