@@ -13,7 +13,7 @@ img {
 	color: #fff;
 	position: relative;
 	padding-bottom: 30px;
-
+	padding-top: 30px;
 }
 
 #intro-text{
@@ -78,9 +78,14 @@ img {
 	color: #E9AF10;
 	text-transform: capitalize;
 }
+.middle-images{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 .middle-images img{
 	max-width: 40%;
-	padding-right: 10px;
+	padding-right: 20px;
 }
 .footer {
 	background-color: #7F7F7F;
