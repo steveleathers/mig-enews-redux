@@ -56,15 +56,15 @@ img {
 .newsletter h3{
 	color: #6D8D33;
 }
-.dashx p{
-	color: #AFAFAF;
+.dashx{
+	color: #AFAFAF !important;
 }
 .btn-gold{
 	background-color: #E5AB10;
 	border-radius:12px;
 	color: #fff;
 	padding: 8px 24px 8px 24px;
-	font-weight: 500;
+	font-weight: 600;
 }
 .other-story{
   text-align: center;
@@ -92,6 +92,9 @@ img {
 	color: #E9AF10;
 	text-transform: capitalize;
 }
+.story-sidebar p{
+	color: #fff;
+}
 .middle-images{
 	text-align: center;
 	padding-top: 20px;
@@ -107,7 +110,7 @@ img {
 	margin-right: 15;
 	margin-left: 15;
 }
-.footer p{
+.footer-content p{
 	color: #fff;
 }
 .footer input{
@@ -132,6 +135,7 @@ img {
 }
 .related{
 	padding-bottom: 30px;
+	padding-top: 10px;
 }
 .related ul{
 	list-stype-type: none;
@@ -192,6 +196,7 @@ img {
 	font-weight: 700;
 	overflow: hidden;
 	position: relative;
+	margin-bottom: 30px;
 }
 .related h4:after{
 	display: inline-block;
