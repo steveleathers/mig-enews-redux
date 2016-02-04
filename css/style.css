@@ -112,6 +112,10 @@ img {
 }
 .citations{
 	font-size: 0.8em;
+	text-align: left;
+}
+.citations a{
+	color: #6D8C33;
 }
 .related ul{
 	list-stype-type: none;
