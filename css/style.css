@@ -69,6 +69,10 @@ img {
 	padding: 8px 24px 8px 24px;
 	font-weight: 600;
 }
+.btn-gold:hover{
+	background-color: #CB9A1F;
+	color: #FFF;
+}
 .other-story{
   text-align: center;
   padding-bottom: 15px;
@@ -97,6 +101,10 @@ img {
 }
 .story-sidebar p{
 	color: #fff;
+}
+.story-sidebar a{
+	color: #fff;
+	text-decoration: none;
 }
 .middle-images{
 	text-align: center;
