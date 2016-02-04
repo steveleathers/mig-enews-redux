@@ -6,16 +6,15 @@ img {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-#main-story p{
-
+#main-story p {
 	font-family: acumin-pro, sans-serif;
-	font-size: 1.25em;
 }
 #main-story{
-	olor: #fff;
+	color: #fff;
 	position: relative;
 	padding-bottom: 30px;
 	padding-top: 30px;
+	font-size: 1.25em;
 }
 #intro-text{
 	padding-top: 12px;
@@ -57,6 +56,16 @@ img {
 .newsletter h3{
 	color: #6D8D33;
 }
+.dashx p{
+	color: #AFAFAF;
+}
+.btn-gold{
+	background-color: #E5AB10;
+	border-radius:12px;
+	color: #fff;
+	padding: 8px 24px 8px 24px;
+	font-weight: 500;
+}
 .other-story{
   text-align: center;
   padding-bottom: 15px;
@@ -74,6 +83,10 @@ img {
 	margin-top: 30px;
 	margin-right: 30px;
 	max-width: 200px;
+	text-align: left;
+	padding-left:10px;
+	padding-right: 10px;
+	margin-top: -10px;
 }
 .story-sidebar h3{
 	color: #E9AF10;
@@ -116,6 +129,9 @@ img {
 }
 .citations a{
 	color: #6D8C33;
+}
+.related{
+	padding-bottom: 30px;
 }
 .related ul{
 	list-stype-type: none;
