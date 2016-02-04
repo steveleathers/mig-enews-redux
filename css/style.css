@@ -31,8 +31,11 @@ img {
 #header{
 	text-align: center;
 }
+#mig-logo a img{
+	max-width: 100px;
+}
 .Ahead img{
-	max-width: 250px;
+	max-width: 600px;
 	padding-bottom: 15px;
 }
 .gold-button{
@@ -58,9 +61,7 @@ img {
 }
 .newsletter h3{
 	color: #6D8D33;
-}
-.dashx{
-	color: #AFAFAF !important;
+	padding-bottom: 10px;
 }
 .btn-gold{
 	background-color: #E5AB10;
@@ -71,6 +72,9 @@ img {
 }
 .btn-gold:hover{
 	background-color: #CB9A1F;
+	color: #FFF;
+}
+.btn-gold:active{
 	color: #FFF;
 }
 .other-story{
@@ -136,6 +140,7 @@ img {
 	max-width: 120px;
 	background-color: #7F7F7F;
 	vertical-align: middle;
+	z-index: 999;
 }
 .citations{
 	font-size: 0.8em;
