@@ -187,6 +187,20 @@ img {
 	max-width: 120px;
 	padding-bottom: 10px;
 }
+.image-link img{
+	display: block;
+}
+@media screen and (max-width:767px){
+	.image-link img{
+		display: block;
+		text-align: center;
+	}
+	.image-link a{
+		text-align: center;
+	}
+}
+@media screen and (min-width:992px){
+}
 .mig-social-follow{
 	position: relative;
 	float: right;
