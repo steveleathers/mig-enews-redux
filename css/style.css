@@ -186,6 +186,7 @@ img {
 .image-link a{
 	max-width: 120px;
 	padding-bottom: 10px;
+	color: #4D4D4D;
 }
 .image-link img{
 	display: block;
@@ -194,9 +195,15 @@ img {
 	.image-link img{
 		display: block;
 		text-align: center;
+
 	}
 	.image-link a{
 		text-align: center;
+		padding-bottom: 20px;
+		color: #4D4D4D;
+	}
+	.image-link{
+		padding-bottom: 20px;
 	}
 }
 @media screen and (min-width:992px){
