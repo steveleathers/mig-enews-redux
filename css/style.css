@@ -142,6 +142,14 @@ img {
 	vertical-align: middle;
 	z-index: 999;
 }
+.mig-footer-link-small{
+	display: inline-block;
+	max-width: 150px;
+	background-color: #7F7F7F;
+	vertical-align: middle;
+	text-align: center;
+	z-index: 999;
+}
 .citations{
 	font-size: 0.8em;
 	text-align: left;
@@ -185,6 +193,24 @@ img {
 	top: 100px;
 	left: 55px;
 	background-color: #7F7F7F;
+}
+.mig-social-follow-small{
+	text-align: center;
+	background-color: #7F7F7F;
+	padding-top: 20px;
+}
+.mig-social-follow-small ul{
+	list-style-type: none;
+	display:inline;
+	margin-left: -42px;
+
+}
+.mig-social-follow-small li {
+	list-style-type: none;
+	display:inline;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 .mig-social-follow ul{
 	list-style-type: none;
