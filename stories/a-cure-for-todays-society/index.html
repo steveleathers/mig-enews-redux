@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/mailchimp.css">
+    <link rel="stylesheet" href="../../css/lightbox.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="../../js/popup.css"></script>
     <script src="https://use.typekit.net/lvs0rft.js"></script>
+    <script src="../../js/lightbox.min.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <title>A Cure for Today's Society: Infuse Play Into Everything :: MIG eNewsletter</title>
   </head>
@@ -27,25 +28,26 @@
           </div>
 
         </div>
-        <hr />
-      <div class="row col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+        <hr class="story-rule" />
+      </div>
+
+      <div class="title row col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
         <h3>A CURE FOR TODAY'S SOCIETY:<br />INFUSE PLAY INTO <em>EVERYTHING</em></h3>
       </div>
       <div class="row">
         <img src="../../img/ACureTop.png" />
       </div>
-      <div class="story-content">
+
+      <div class="story-content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+        <div class="story-sidebar">
+          <h3>Design + Technology + Play</h3>
+          <p>Can design be personal, universal and playful? “Inclusive,” a 20-minute film produced by Microsoft Design, explores the challenges and opportunities designers face when interactions with technology are pervasive. How can technology help us address the true breadth of human diversity? Join MIG Principal Susan Goltsman and some of the industry’s foremost thought leaders in <a href="http://www.inclusivethefilm.com" target="_blank">inclusivethefilm.com</a>.</p>
+        </div>
         <p>Play is a central element in our health, well-being, creativity and intelligence. In fact, our success as an innovative culture rests on recognizing the importance of play in our daily lives.<sup>i</sup></p>
 
         <p>However, much of what we consider play is structured and planned, often needs gear or special clothes, a specific place to be, and usually has rules that must be followed. While soccer, basketball, tennis and golf are good for us, they’re not “play.”</p>
-      </div>
 
-      <div class="story-sidebar">
-        <h3>Design + Technology + Play</h3>
-        <p>Can design be personal, universal and playful? “Inclusive,” a 20-minute film produced by Microsoft Design, explores the challenges and opportunities designers face when interactions with technology are pervasive. How can technology help us address the true breadth of human diversity? Join MIG Principal Susan Goltsman and some of the industry’s foremost thought leaders in <a href="http://www.inclusivethefilm.com" target="_blank">inclusivethefilm.com</a>.</p>
-      </div>
 
-      <div class="story-content">
 
         <p>The lack of play among children has ripple effects when they become adults. Colleges are now reporting a lack of resilience among students who are increasingly anxious and depressed—and linking that back to a lack of play.<sup>ii</sup></p>
 
@@ -60,12 +62,12 @@
         <p>&ldquo;Play in our environments can be permanent in-the-ground installations, ephemeral pop-up events, or travel from place to place,&rdquo; Colbert says. What if you’re walking along and encounter a throne instead of a bench to sit on? What if you hear music and see dance steps on the sidewalk? What if you come upon a stationery bicycle that generates electricity for lights as you pedal? These elements interrupt a purely functional environment and draw us into it, sending a cue that allows us to—for a moment—come out of our prescribed roles in life and joyfully assume another. That&rsquo;s play.
 
         <p>&ldquo;Play is not just a swing set and it’s not just for kids,&rdquo; Colbert concludes. MIG&rsquo;s Play Studio will be sprinkling play into all our projects, from policy to design. Call on us for a fun time.
-      </div>
-      <div class="row middle-images">
 
-        <a href="../../img/ACureMidLeft.png" class="Thumbnail"><img src="../../img/ACureMidLeft.png" alt="A Cure for Today's Society" / ></a>
-
-        <a href="../../img/ACureMidRight.png" class="Thumbnail"><img src="../../img/ACureMidRight.png" alt="A Cure for Today's Society" / ></a>
+      <div class="middle-images">
+        <div class="img-group">
+          <a href="../../img/ACureMidLeft2.png" data-toggle="lightbox" data-gallery="play"><img src="../../img/ACureMidLeft2.png" alt="A Cure for Today's Society" / ></a>
+          <a href="../../img/ACureMidRight.png"  data-toggle="lightbox" data-gallery="play"><img src="../../img/ACureMidRight.png" alt="A Cure for Today's Society" / ></a>
+        </div>
       </div>
       <hr />
       <div class="citations">
@@ -77,7 +79,7 @@
 
         <p><sup>iii</sup> Goltsman, Susan, Daniel Iacofano and Robin Moore, Play For All. Berkeley, CA: MIG Communications; 1992.</p>
       </div>
-
+      </div>
     </div>
     <div class="row related col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
       <h4>related posts</h4>
@@ -98,8 +100,8 @@
           </div>
 
           <div class="image-link col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-12 col-xs-12">
-            <a href="../a-cure-for-todays-society/"><img src="../../img/play_square.jpg" /></a>
-            <a href="../a-cure-for-todays-society/">A Cure for Today's Society</a>
+            <a href="../bell-street-park-redefines-park-space/"><img src="../../img/bell.jpg" /></a>
+            <a href="../bell-street-park-redefines-park-space/">Bell Street Park Redefines Park Space</a>
           </div>
     </div>
       <div class="row"></div>
@@ -161,5 +163,11 @@
         </div>
       </div>
     </div>
+    <script>
+      $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+    </script>
   </body>
 </html>

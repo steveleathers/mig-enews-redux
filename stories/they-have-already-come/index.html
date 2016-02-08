@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/mailchimp.css">
+    <link rel="stylesheet" href="../../css/lightbox.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://use.typekit.net/lvs0rft.js"></script>
+    <script src="../../js/lightbox.min.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <title>MIG eNewsletter</title>
   </head>
@@ -25,7 +27,7 @@
             News from  <a href="http://www.migcom.com" target="_blank" alt="MIG, Inc."><img src="../../img/miglogo.jpg" / ></a>  <em>Winter 2016</em>
           </div>
         </div>
-              <hr />
+              <hr class="story-rule" />
       </div>
       <div class="row col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
         <h3>THEY HAVE ALREADY COME; BUILD IT!<br />
@@ -43,10 +45,11 @@ NAKADA PARK NOW OFFERS THE FOREST</h3>
         <p>Why not remove the fence and create a 12-acre urban park in this underserved community? MIG worked with Friends of Nadaka and the Columbia Slough Watershed Council, along with over 15 other community groups to create an urban forest park.</p>
 
         <p>There’s no question now that the site is meant for people. It contains a large natural play area, community garden, rainwater collection systems, restrooms, picnic shelters, gathering spaces, art, native meadow grasses, a seasonal palette of drought-tolerant plants—and the forested woodland.</p>
-        <div class="row middle-images">
-          <img src="../../img/TheyHaveAlreadyComeMidLeft.png" / >
-
-          <img src="../../img/TheyHaveAlreadyComeMidRight.png" / >
+        <div class="middle-images">
+          <div class="img-group">
+            <a href="../../img/TheyHaveAlreadyComeMidLeft.png" data-toggle="lightbox" data-gallery="nadaka"><img src="../../img/TheyHaveAlreadyComeMidLeft.png" / ></a>
+            <a href="../../img/TheyHaveAlreadyComeMidRight.png" data-toggle="lightbox" data-gallery="nadaka"><img src="../../img/TheyHaveAlreadyComeMidRight.png" / ></a>
+          </div>
         </div>
         <p>Some of the imaginative play structures include dry creek bed that transforms in to a large sand area with climbing boulders, water pump, totem poles, carved wood canoe, longhouse, “fishing pier,” wood steppers, fire ring seating area that also is meant for climbing and balancing, soft elevated areas for rolling, and a quiet seating area beneath a grove of trees that transitions into the woodland.</p>
 
@@ -66,8 +69,8 @@ NAKADA PARK NOW OFFERS THE FOREST</h3>
             </div>
 
             <div class="image-link col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-12 col-xs-12">
-              <a href="../they-have-already-come/"><img src="../../img/nadaka.jpg" /></a>
-              <a href="../they-have-already-come/">They Have Already Come; Build It!</a>
+              <a href="../bell-street-park-redefines-park-space/"><img src="../../img/bell.jpg" /></a>
+              <a href="../bell-street-park-redefines-park-space/">Bell Street Park Redefines Park Space</a>
             </div>
 
             <div class="image-link col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-12 col-xs-12">
@@ -134,5 +137,11 @@ NAKADA PARK NOW OFFERS THE FOREST</h3>
         </div>
       </div>
     </div>
+    <script>
+      $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+    </script>
   </body>
 </html>
