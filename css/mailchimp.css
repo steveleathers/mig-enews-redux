@@ -1,8 +1,8 @@
 @media screen and (max-width:991px){
-  #mc_embed_signup {clear: left; float:left;}
+  #mc_embed_signup {clear: left; float:left;margin-top:25px;}
 }
 @media screen and (min-width:992px){
-  #mc_embed_signup {clear: left; float:left;width:60%;}
+  #mc_embed_signup {clear: left; float:left;width:50%;margin-top:25px;}
 }
 #mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
 #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
