@@ -42,7 +42,6 @@ img {
 	float:left;
 	position: relative;
 	top: 100px;
-	margin-left: 20px;
 }
 .Ahead img{
 	max-width: 600px;
@@ -54,7 +53,7 @@ img {
 	background-color: #E6AC10;
 }
 .story-rule  {
-	border-top: 5px solid #aeaeae !important;
+	border-top: 5px solid #666 !important;
 }
 .newsletter {
   font-family: acumin-pro, sans-serif;
@@ -69,6 +68,8 @@ img {
 .story-content{
 	text-align: left;
 	padding-top: 30px;
+	font-size: 1.25em;
+	line-height: 1.5em;
 }
 .newsletter p{
 		color: #4D4D4D;
@@ -98,12 +99,17 @@ hr{
 .other-story{
   text-align: center;
   padding-bottom: 15px;
+	padding-left: 22px;
+	padding-right: 22px;
 }
 .other-story h3 {
   color: #6D8D33;
 }
 .other-story p {
   color: #4D4D4D;
+}
+.story-header h3{
+	font-size: 3.0em;
 }
 .story-sidebar{
 	background-color: #808080;
@@ -116,10 +122,13 @@ hr{
 	padding-left:20px;
 	padding-right: 20px;
 	margin-top: 80px;
+	line-height: 1.8em;
+	max-width: 300px;
 }
 .story-sidebar h3{
 	color: #E9AF10;
 	text-transform: capitalize;
+	font-size: 1.6em;
 }
 .story-sidebar p{
 	color: #fff;
@@ -132,10 +141,21 @@ hr{
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	width: 100%;
+}
+.img-group-small {
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.img-group-small img{
+	padding-bottom: 30px;
+	max-width: 100%;
 }
 .middle-images img{
-	max-width: 40%;
-	padding-right: 20px;
+	max-width: 45%;
+	padding-right: 30px;
 }
 .footer {
 	background-color: #7F7F7F;
@@ -206,6 +226,7 @@ hr{
 	max-width: 120px;
 	padding-bottom: 10px;
 	color: #4D4D4D;
+	font-weight: 600;
 }
 .image-link img{
 	display: block;
