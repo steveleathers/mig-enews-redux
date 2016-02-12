@@ -24,7 +24,11 @@ h3 {
 
 
 /* Typography */
-
+@media screen and (max-width: 768px) {
+  .imageSub{
+    text-align: center;
+  }
+}
 
 @media screen and (min-width: 768px) {
 
@@ -46,7 +50,7 @@ h3 {
 		.newsletter{
 			text-align: center;
 		}
-		.imageSub{
+		.imageSub {
 			text-align: center;
 		}
 		.mig-footer-link-small .footer a{
@@ -151,8 +155,8 @@ img {
 .imageText {
 }
 
-.imageSub {
-
+.imageSub img{
+  max-width: 100%;
 }
 
 /* HEADER STYLING */
@@ -236,7 +240,9 @@ img {
 	color: #6D8D33;
 	padding-bottom: 10px;
 }
-
+.bottom-logos{
+  text-align: center;
+}
 .btn-gold{
 	background-color: #E5AB10;
 	border-radius:12px;
