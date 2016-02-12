@@ -1,20 +1,177 @@
+/* Bootstrap overrides */
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #AEAEAE;
+}
+
+h3 {
+
+	font-size: 1.4em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "acumin-pro";
+    font-weight: 600;
+    line-height: 1.1;
+    color: #6D8B33;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+    }
+
+
+/* Typography */
+
+
+@media screen and (min-width: 768px) {
+
+	h2.hello {
+    font-size: 2.25em;
+    font-family: "acumin-pro-condensed", helvetica, sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+	.imageText p {
+    top: 50%;
+    position: absolute;
+    padding: 0 20%;
+    font-size: 1em;
+}
+		.newsletter{
+			text-align: center;
+		}
+		.imageSub{
+			text-align: center;
+		}
+		.mig-footer-link-small .footer a{
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+}
+
+@media screen and (min-width: 992px) {
+
+	h2.hello {
+    font-size: 3em;
+    font-family: "acumin-pro-condensed", helvetica, sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+	.imageText p {
+    top: 50%;
+    position: absolute;
+    padding: 0 20%;
+    font-size: 1.25em;
+}
+}
+
+@media screen and (min-width: 1200px) {
+
+	h2.hello {
+    font-size: 2.5em;
+    font-family: "acumin-pro-condensed", helvetica, sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+	.imageText p {
+    top: 50%;
+    position: absolute;
+    padding: 0 20%;
+    font-size: 1.1em;
+}
+
+	.btn-main-story{
+		position:absolute;
+		top:-25%;
+	}
+}
+
+	.imageText h2 {
+    top: 30%;
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 0 20%;
+	}
+
+.btn-gold{
+	margin-bottom: 20px;
+}
+.imageText a {
+	top: 80%;
+}
+
+.imageSub h3 {
+
+	font-size: 1.4em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "acumin-pro", helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #6D8B33;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+    }
+
+.imageSub p {
+	font-family: "acumin-pro", helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    max-width: 450px
+}
+
+
+/* IMAGE STYLING */
+
 img {
 	max-width: 100%;
 	height: auto;
 }
+
+/* Layout */
+.imageText {
+}
+
+.imageSub {
+
+}
+
+/* HEADER STYLING */
+
 #header{
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 35px;
+	padding-bottom: 0px;
 }
 #main-story p {
 	font-family: acumin-pro, sans-serif;
 }
 #main-story{
 	color: #fff;
-	position: relative;
 	padding-bottom: 30px;
 	padding-top: 30px;
 	font-size: 1.25em;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 #main-story a img{
 	padding-bottom: 20px;
@@ -35,16 +192,17 @@ img {
 	max-width: 60px;
 }
 #mig-logo {
-	font-size: .85em;
+	font-size: .9em;
 }
 #logo-top{
-	max-width: 100px;
+	max-width: 110px;
 	float:left;
 	position: relative;
-	top: 100px;
+	top: 70px;
+	margin-left: 0px;
 }
 .Ahead img{
-	max-width: 600px;
+	max-width: 100%;
 	padding-bottom: 15px;
 }
 .gold-button{
@@ -69,7 +227,7 @@ img {
 	text-align: left;
 	padding-top: 30px;
 	font-size: 1.25em;
-	line-height: 1.7em;
+	line-height: 1.5em;
 }
 .newsletter p{
 		color: #4D4D4D;
@@ -78,9 +236,7 @@ img {
 	color: #6D8D33;
 	padding-bottom: 10px;
 }
-hr{
-	color: #aeaeae;
-}
+
 .btn-gold{
 	background-color: #E5AB10;
 	border-radius:12px;
@@ -88,6 +244,7 @@ hr{
 	padding: 8px 24px 8px 24px;
 	font-weight: 600;
 	margin-top: 15px;
+
 }
 .btn-gold:hover{
 	background-color: #CB9A1F;
@@ -194,6 +351,8 @@ hr{
 }
 .citations a{
 	color: #6D8C33;
+	overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 .related{
 	padding-bottom: 30px;
@@ -227,14 +386,10 @@ hr{
 	padding-bottom: 10px;
 	color: #4D4D4D;
 	font-weight: 600;
-	margin-left:0;
-	margin-right:0;
 }
 .image-link img{
 	display: block;
 	padding-bottom: 10px;
-	margin-left:0px;
-	margin-right:0;
 }
 .get-news {
 	margin-top: 30px;
